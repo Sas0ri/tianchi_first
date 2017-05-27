@@ -1,0 +1,6 @@
+framework module Pods_tc {
+  umbrella header "Pods-tc-umbrella.h"
+
+  export *
+  module * { export * }
+}

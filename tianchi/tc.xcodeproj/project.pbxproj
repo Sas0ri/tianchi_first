@@ -1,0 +1,1096 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C0A5FAA1D5EE74A000E6F3A /* TCKTVCloudSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0A5FA91D5EE74A000E6F3A /* TCKTVCloudSearchViewController.swift */; };
+		5C3BC8741D6BDA9700801FA6 /* AFNetworking+Cancel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3BC8731D6BDA9700801FA6 /* AFNetworking+Cancel.swift */; };
+		5C47421C1D7E978A0010CFFA /* TCCinemaFiltViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47421B1D7E978A0010CFFA /* TCCinemaFiltViewManager.swift */; };
+		5C4F21241D61C7C3009CD476 /* UISearchBarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4F21231D61C7C3009CD476 /* UISearchBarAppearance.m */; };
+		5C50E0A81D11467C0002AEF1 /* TCKTVCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C50E0A71D11467C0002AEF1 /* TCKTVCategoryViewController.swift */; };
+		5C50E0AA1D1148BC0002AEF1 /* TCKTVLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C50E0A91D1148BC0002AEF1 /* TCKTVLanguageViewController.swift */; };
+		5C50E0AD1D13917F0002AEF1 /* TCVerticalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C50E0AC1D13917F0002AEF1 /* TCVerticalButton.swift */; };
+		5C5816121D2246BF00A0F513 /* TCMainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5816111D2246BF00A0F513 /* TCMainButton.swift */; };
+		5C5816151D2251C800A0F513 /* TCKTVMainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5816141D2251C800A0F513 /* TCKTVMainButton.swift */; };
+		5C88DC2A1D76A60000E4803A /* AC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C88DC291D76A60000E4803A /* AC.storyboard */; };
+		5C88DC2E1D76AFF200E4803A /* TCACViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88DC2D1D76AFF200E4803A /* TCACViewController.swift */; };
+		5C88DC321D76B4D000E4803A /* UIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C88DC311D76B4D000E4803A /* UIHelper.m */; };
+		5C88DC341D76B68800E4803A /* AC.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C88DC331D76B68800E4803A /* AC.xcassets */; };
+		5C88DC371D76C54C00E4803A /* SoundControl.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C88DC361D76C54C00E4803A /* SoundControl.storyboard */; };
+		5C88DC391D76C87100E4803A /* SoundControl.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C88DC381D76C87100E4803A /* SoundControl.xcassets */; };
+		5C88DC3B1D76D3EB00E4803A /* TCSoundControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88DC3A1D76D3EB00E4803A /* TCSoundControlViewController.swift */; };
+		5C88DC3D1D76EB5C00E4803A /* TIFFitToHeightLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C88DC3C1D76EB5C00E4803A /* TIFFitToHeightLabel.swift */; };
+		5CA77E2F1D7D3AA60013F0C3 /* Cinema.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA77E2E1D7D3AA60013F0C3 /* Cinema.storyboard */; };
+		5CA77E341D7D41490013F0C3 /* TCCinemaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA77E331D7D41490013F0C3 /* TCCinemaViewController.swift */; };
+		5CA77E391D7D54850013F0C3 /* Cinema.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CA77E381D7D54850013F0C3 /* Cinema.xcassets */; };
+		5CA77E3B1D7D66A30013F0C3 /* TCCinemaSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA77E3A1D7D66A30013F0C3 /* TCCinemaSearchViewController.swift */; };
+		5CAA02181D17CD9800FE6DBD /* TCContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAA02171D17CD9800FE6DBD /* TCContext.swift */; };
+		5CAA021F1D17CE1D00FE6DBD /* MCJSONClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAA021E1D17CE1D00FE6DBD /* MCJSONClient.swift */; };
+		5CAA02221D17D03100FE6DBD /* CocoaLumberjackSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAA02211D17D03100FE6DBD /* CocoaLumberjackSwift.swift */; };
+		5CAA02241D17D09800FE6DBD /* TCKTVSongsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAA02231D17D09800FE6DBD /* TCKTVSongsViewController.swift */; };
+		5CAA02271D17D16F00FE6DBD /* TCKTVSongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAA02261D17D16F00FE6DBD /* TCKTVSongCell.swift */; };
+		5CAA02311D19150500FE6DBD /* TCKTVSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAA02301D19150500FE6DBD /* TCKTVSong.swift */; };
+		5CAA02371D19198600FE6DBD /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAA02361D19198600FE6DBD /* MBProgressHUD.m */; };
+		5CAA023B1D19199A00FE6DBD /* UIView+MBProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAA023A1D19199A00FE6DBD /* UIView+MBProgressView.m */; };
+		5CAA023F1D191D2F00FE6DBD /* TCKTVSinger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAA023E1D191D2F00FE6DBD /* TCKTVSinger.swift */; };
+		5CAA02411D191DCA00FE6DBD /* TCKTVSingerClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAA02401D191DCA00FE6DBD /* TCKTVSingerClient.swift */; };
+		5CAA02441D1922DB00FE6DBD /* TCKTVSingerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAA02431D1922DB00FE6DBD /* TCKTVSingerCell.swift */; };
+		5CAA024C1D1929A300FE6DBD /* TCKTVSongNameClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAA024B1D1929A200FE6DBD /* TCKTVSongNameClient.swift */; };
+		5CAA02501D19337300FE6DBD /* TCKTVCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAA024F1D19337300FE6DBD /* TCKTVCloud.swift */; };
+		5CAA02541D19342600FE6DBD /* TCKTVDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAA02531D19342600FE6DBD /* TCKTVDownload.swift */; };
+		5CAA02581D19348200FE6DBD /* TCKTVPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAA02571D19348200FE6DBD /* TCKTVPoint.swift */; };
+		5CAA025A1D1A5E0600FE6DBD /* TCSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAA02591D1A5E0600FE6DBD /* TCSocketManager.swift */; };
+		5CAA025E1D1A673F00FE6DBD /* TCSocketPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAA025D1D1A673F00FE6DBD /* TCSocketPayload.swift */; };
+		5CAA02611D1A700200FE6DBD /* TCKTVPayloadHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAA02601D1A700200FE6DBD /* TCKTVPayloadHandler.swift */; };
+		5CC38DBD1D6300CA0072CAE3 /* TCKTVContainerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC38DBC1D6300CA0072CAE3 /* TCKTVContainerCell.swift */; };
+		5CE93E411D0E83EA00A536AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE93E381D0E83EA00A536AC /* AppDelegate.swift */; };
+		5CE93E421D0E83EA00A536AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CE93E391D0E83EA00A536AC /* Assets.xcassets */; };
+		5CE93E431D0E83EA00A536AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE93E3A1D0E83EA00A536AC /* LaunchScreen.storyboard */; };
+		5CE93E441D0E83EA00A536AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE93E3C1D0E83EA00A536AC /* Main.storyboard */; };
+		5CE93E461D0E83EA00A536AC /* TCMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE93E401D0E83EA00A536AC /* TCMainViewController.swift */; };
+		5CE93E481D0E8CBF00A536AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CE93E471D0E8CBF00A536AC /* Images.xcassets */; };
+		5CE93E4B1D0E9CA400A536AC /* TCKTVMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE93E4A1D0E9CA400A536AC /* TCKTVMainViewController.swift */; };
+		5CE93E4D1D0FDEA900A536AC /* TCKTVMainBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE93E4C1D0FDEA900A536AC /* TCKTVMainBoardViewController.swift */; };
+		5CE93E4F1D0FF02200A536AC /* TCKTVSongNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE93E4E1D0FF02200A536AC /* TCKTVSongNameViewController.swift */; };
+		5CE93E851D0FF2F500A536AC /* FUIAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE93E571D0FF2F500A536AC /* FUIAlertView.m */; };
+		5CE93E861D0FF2F500A536AC /* FUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE93E591D0FF2F500A536AC /* FUIButton.m */; };
+		5CE93E871D0FF2F500A536AC /* FUICellBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE93E5B1D0FF2F500A536AC /* FUICellBackgroundView.m */; };
+		5CE93E881D0FF2F500A536AC /* FUIPopoverBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE93E5D1D0FF2F500A536AC /* FUIPopoverBackgroundView.m */; };
+		5CE93E891D0FF2F500A536AC /* FUISegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE93E5F1D0FF2F500A536AC /* FUISegmentedControl.m */; };
+		5CE93E8A1D0FF2F500A536AC /* FUISwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE93E611D0FF2F500A536AC /* FUISwitch.m */; };
+		5CE93E8B1D0FF2F500A536AC /* UIBarButtonItem+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE93E631D0FF2F500A536AC /* UIBarButtonItem+FlatUI.m */; };
+		5CE93E8C1D0FF2F500A536AC /* UIColor+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE93E651D0FF2F500A536AC /* UIColor+FlatUI.m */; };
+		5CE93E8D1D0FF2F500A536AC /* UIFont+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE93E671D0FF2F500A536AC /* UIFont+FlatUI.m */; };
+		5CE93E8E1D0FF2F500A536AC /* UIImage+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE93E691D0FF2F500A536AC /* UIImage+FlatUI.m */; };
+		5CE93E8F1D0FF2F500A536AC /* UINavigationBar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE93E6B1D0FF2F500A536AC /* UINavigationBar+FlatUI.m */; };
+		5CE93E901D0FF2F500A536AC /* UIPopoverController+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE93E6D1D0FF2F500A536AC /* UIPopoverController+FlatUI.m */; };
+		5CE93E911D0FF2F500A536AC /* UIProgressView+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE93E6F1D0FF2F500A536AC /* UIProgressView+FlatUI.m */; };
+		5CE93E921D0FF2F500A536AC /* UISlider+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE93E711D0FF2F500A536AC /* UISlider+FlatUI.m */; };
+		5CE93E931D0FF2F500A536AC /* UIStepper+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE93E731D0FF2F500A536AC /* UIStepper+FlatUI.m */; };
+		5CE93E941D0FF2F500A536AC /* UITabBar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE93E751D0FF2F500A536AC /* UITabBar+FlatUI.m */; };
+		5CE93E951D0FF2F500A536AC /* UITableViewCell+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE93E771D0FF2F500A536AC /* UITableViewCell+FlatUI.m */; };
+		5CE93E961D0FF2F500A536AC /* UIToolbar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE93E791D0FF2F500A536AC /* UIToolbar+FlatUI.m */; };
+		5CE93E971D0FF2F500A536AC /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CE93E7B1D0FF2F500A536AC /* Lato-Black.ttf */; };
+		5CE93E981D0FF2F500A536AC /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CE93E7C1D0FF2F500A536AC /* Lato-BlackItalic.ttf */; };
+		5CE93E991D0FF2F500A536AC /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CE93E7D1D0FF2F500A536AC /* Lato-Bold.ttf */; };
+		5CE93E9A1D0FF2F500A536AC /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CE93E7E1D0FF2F500A536AC /* Lato-BoldItalic.ttf */; };
+		5CE93E9B1D0FF2F500A536AC /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CE93E7F1D0FF2F500A536AC /* Lato-Hairline.ttf */; };
+		5CE93E9C1D0FF2F500A536AC /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CE93E801D0FF2F500A536AC /* Lato-HairlineItalic.ttf */; };
+		5CE93E9D1D0FF2F500A536AC /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CE93E811D0FF2F500A536AC /* Lato-Italic.ttf */; };
+		5CE93E9E1D0FF2F500A536AC /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CE93E821D0FF2F500A536AC /* Lato-Light.ttf */; };
+		5CE93E9F1D0FF2F500A536AC /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CE93E831D0FF2F500A536AC /* Lato-LightItalic.ttf */; };
+		5CE93EA01D0FF2F500A536AC /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CE93E841D0FF2F500A536AC /* Lato-Regular.ttf */; };
+		5CE93EA41D11330100A536AC /* TCKTVSingerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE93EA31D11330100A536AC /* TCKTVSingerViewController.swift */; };
+		5CFEFCE71D78083400520B3B /* Apps.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CFEFCE61D78083400520B3B /* Apps.storyboard */; };
+		5CFEFCE91D780D3000520B3B /* Apps.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CFEFCE81D780D3000520B3B /* Apps.xcassets */; };
+		5CFEFCEB1D7816BB00520B3B /* TCAppsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFEFCEA1D7816BB00520B3B /* TCAppsViewController.swift */; };
+		DBCA01DF5A1620B5A052D37C /* Pods_tc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61DBCFBB028BAA37DF0DC02F /* Pods_tc.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		54EF98188CE16DE3A76D1AD8 /* Pods-tc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tc.release.xcconfig"; path = "Pods/Target Support Files/Pods-tc/Pods-tc.release.xcconfig"; sourceTree = "<group>"; };
+		5C0A5FA91D5EE74A000E6F3A /* TCKTVCloudSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCKTVCloudSearchViewController.swift; sourceTree = "<group>"; };
+		5C3BC8731D6BDA9700801FA6 /* AFNetworking+Cancel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AFNetworking+Cancel.swift"; sourceTree = "<group>"; };
+		5C47421B1D7E978A0010CFFA /* TCCinemaFiltViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCCinemaFiltViewManager.swift; sourceTree = "<group>"; };
+		5C4F21221D61C7C3009CD476 /* UISearchBarAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISearchBarAppearance.h; sourceTree = "<group>"; };
+		5C4F21231D61C7C3009CD476 /* UISearchBarAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISearchBarAppearance.m; sourceTree = "<group>"; };
+		5C50E0A71D11467C0002AEF1 /* TCKTVCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCKTVCategoryViewController.swift; sourceTree = "<group>"; };
+		5C50E0A91D1148BC0002AEF1 /* TCKTVLanguageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCKTVLanguageViewController.swift; sourceTree = "<group>"; };
+		5C50E0AC1D13917F0002AEF1 /* TCVerticalButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCVerticalButton.swift; sourceTree = "<group>"; };
+		5C5816111D2246BF00A0F513 /* TCMainButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCMainButton.swift; sourceTree = "<group>"; };
+		5C5816141D2251C800A0F513 /* TCKTVMainButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCKTVMainButton.swift; sourceTree = "<group>"; };
+		5C88DC291D76A60000E4803A /* AC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AC.storyboard; sourceTree = "<group>"; };
+		5C88DC2D1D76AFF200E4803A /* TCACViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCACViewController.swift; sourceTree = "<group>"; };
+		5C88DC301D76B4D000E4803A /* UIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHelper.h; sourceTree = "<group>"; };
+		5C88DC311D76B4D000E4803A /* UIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHelper.m; sourceTree = "<group>"; };
+		5C88DC331D76B68800E4803A /* AC.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AC.xcassets; sourceTree = "<group>"; };
+		5C88DC361D76C54C00E4803A /* SoundControl.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SoundControl.storyboard; sourceTree = "<group>"; };
+		5C88DC381D76C87100E4803A /* SoundControl.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SoundControl.xcassets; sourceTree = "<group>"; };
+		5C88DC3A1D76D3EB00E4803A /* TCSoundControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCSoundControlViewController.swift; sourceTree = "<group>"; };
+		5C88DC3C1D76EB5C00E4803A /* TIFFitToHeightLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIFFitToHeightLabel.swift; sourceTree = "<group>"; };
+		5CA77E2E1D7D3AA60013F0C3 /* Cinema.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Cinema.storyboard; sourceTree = "<group>"; };
+		5CA77E331D7D41490013F0C3 /* TCCinemaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCCinemaViewController.swift; sourceTree = "<group>"; };
+		5CA77E381D7D54850013F0C3 /* Cinema.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Cinema.xcassets; sourceTree = "<group>"; };
+		5CA77E3A1D7D66A30013F0C3 /* TCCinemaSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCCinemaSearchViewController.swift; sourceTree = "<group>"; };
+		5CAA02171D17CD9800FE6DBD /* TCContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCContext.swift; sourceTree = "<group>"; };
+		5CAA021E1D17CE1D00FE6DBD /* MCJSONClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCJSONClient.swift; sourceTree = "<group>"; };
+		5CAA02211D17D03100FE6DBD /* CocoaLumberjackSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocoaLumberjackSwift.swift; sourceTree = "<group>"; };
+		5CAA02231D17D09800FE6DBD /* TCKTVSongsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCKTVSongsViewController.swift; sourceTree = "<group>"; };
+		5CAA02261D17D16F00FE6DBD /* TCKTVSongCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCKTVSongCell.swift; sourceTree = "<group>"; };
+		5CAA02301D19150500FE6DBD /* TCKTVSong.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCKTVSong.swift; sourceTree = "<group>"; };
+		5CAA02351D19198600FE6DBD /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		5CAA02361D19198600FE6DBD /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		5CAA02391D19199A00FE6DBD /* UIView+MBProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MBProgressView.h"; sourceTree = "<group>"; };
+		5CAA023A1D19199A00FE6DBD /* UIView+MBProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MBProgressView.m"; sourceTree = "<group>"; };
+		5CAA023E1D191D2F00FE6DBD /* TCKTVSinger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCKTVSinger.swift; sourceTree = "<group>"; };
+		5CAA02401D191DCA00FE6DBD /* TCKTVSingerClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCKTVSingerClient.swift; sourceTree = "<group>"; };
+		5CAA02431D1922DB00FE6DBD /* TCKTVSingerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCKTVSingerCell.swift; sourceTree = "<group>"; };
+		5CAA024B1D1929A200FE6DBD /* TCKTVSongNameClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCKTVSongNameClient.swift; sourceTree = "<group>"; };
+		5CAA024F1D19337300FE6DBD /* TCKTVCloud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCKTVCloud.swift; sourceTree = "<group>"; };
+		5CAA02531D19342600FE6DBD /* TCKTVDownload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCKTVDownload.swift; sourceTree = "<group>"; };
+		5CAA02571D19348200FE6DBD /* TCKTVPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCKTVPoint.swift; sourceTree = "<group>"; };
+		5CAA02591D1A5E0600FE6DBD /* TCSocketManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCSocketManager.swift; sourceTree = "<group>"; };
+		5CAA025D1D1A673F00FE6DBD /* TCSocketPayload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCSocketPayload.swift; sourceTree = "<group>"; };
+		5CAA02601D1A700200FE6DBD /* TCKTVPayloadHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCKTVPayloadHandler.swift; sourceTree = "<group>"; };
+		5CC38DBC1D6300CA0072CAE3 /* TCKTVContainerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCKTVContainerCell.swift; sourceTree = "<group>"; };
+		5CE93E211D0E838400A536AC /* tc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CE93E381D0E83EA00A536AC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CE93E391D0E83EA00A536AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CE93E3B1D0E83EA00A536AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CE93E3D1D0E83EA00A536AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CE93E3E1D0E83EA00A536AC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CE93E3F1D0E83EA00A536AC /* tc-bridging-header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "tc-bridging-header.h"; sourceTree = "<group>"; };
+		5CE93E401D0E83EA00A536AC /* TCMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCMainViewController.swift; sourceTree = "<group>"; };
+		5CE93E471D0E8CBF00A536AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5CE93E4A1D0E9CA400A536AC /* TCKTVMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCKTVMainViewController.swift; sourceTree = "<group>"; };
+		5CE93E4C1D0FDEA900A536AC /* TCKTVMainBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCKTVMainBoardViewController.swift; sourceTree = "<group>"; };
+		5CE93E4E1D0FF02200A536AC /* TCKTVSongNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCKTVSongNameViewController.swift; sourceTree = "<group>"; };
+		5CE93E551D0FF2F500A536AC /* FlatUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatUIKit.h; sourceTree = "<group>"; };
+		5CE93E561D0FF2F500A536AC /* FUIAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUIAlertView.h; sourceTree = "<group>"; };
+		5CE93E571D0FF2F500A536AC /* FUIAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUIAlertView.m; sourceTree = "<group>"; };
+		5CE93E581D0FF2F500A536AC /* FUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUIButton.h; sourceTree = "<group>"; };
+		5CE93E591D0FF2F500A536AC /* FUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUIButton.m; sourceTree = "<group>"; };
+		5CE93E5A1D0FF2F500A536AC /* FUICellBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUICellBackgroundView.h; sourceTree = "<group>"; };
+		5CE93E5B1D0FF2F500A536AC /* FUICellBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUICellBackgroundView.m; sourceTree = "<group>"; };
+		5CE93E5C1D0FF2F500A536AC /* FUIPopoverBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUIPopoverBackgroundView.h; sourceTree = "<group>"; };
+		5CE93E5D1D0FF2F500A536AC /* FUIPopoverBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUIPopoverBackgroundView.m; sourceTree = "<group>"; };
+		5CE93E5E1D0FF2F500A536AC /* FUISegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUISegmentedControl.h; sourceTree = "<group>"; };
+		5CE93E5F1D0FF2F500A536AC /* FUISegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUISegmentedControl.m; sourceTree = "<group>"; };
+		5CE93E601D0FF2F500A536AC /* FUISwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUISwitch.h; sourceTree = "<group>"; };
+		5CE93E611D0FF2F500A536AC /* FUISwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUISwitch.m; sourceTree = "<group>"; };
+		5CE93E621D0FF2F500A536AC /* UIBarButtonItem+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+FlatUI.h"; sourceTree = "<group>"; };
+		5CE93E631D0FF2F500A536AC /* UIBarButtonItem+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+FlatUI.m"; sourceTree = "<group>"; };
+		5CE93E641D0FF2F500A536AC /* UIColor+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FlatUI.h"; sourceTree = "<group>"; };
+		5CE93E651D0FF2F500A536AC /* UIColor+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FlatUI.m"; sourceTree = "<group>"; };
+		5CE93E661D0FF2F500A536AC /* UIFont+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+FlatUI.h"; sourceTree = "<group>"; };
+		5CE93E671D0FF2F500A536AC /* UIFont+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+FlatUI.m"; sourceTree = "<group>"; };
+		5CE93E681D0FF2F500A536AC /* UIImage+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FlatUI.h"; sourceTree = "<group>"; };
+		5CE93E691D0FF2F500A536AC /* UIImage+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FlatUI.m"; sourceTree = "<group>"; };
+		5CE93E6A1D0FF2F500A536AC /* UINavigationBar+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+FlatUI.h"; sourceTree = "<group>"; };
+		5CE93E6B1D0FF2F500A536AC /* UINavigationBar+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+FlatUI.m"; sourceTree = "<group>"; };
+		5CE93E6C1D0FF2F500A536AC /* UIPopoverController+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPopoverController+FlatUI.h"; sourceTree = "<group>"; };
+		5CE93E6D1D0FF2F500A536AC /* UIPopoverController+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPopoverController+FlatUI.m"; sourceTree = "<group>"; };
+		5CE93E6E1D0FF2F500A536AC /* UIProgressView+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+FlatUI.h"; sourceTree = "<group>"; };
+		5CE93E6F1D0FF2F500A536AC /* UIProgressView+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+FlatUI.m"; sourceTree = "<group>"; };
+		5CE93E701D0FF2F500A536AC /* UISlider+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISlider+FlatUI.h"; sourceTree = "<group>"; };
+		5CE93E711D0FF2F500A536AC /* UISlider+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISlider+FlatUI.m"; sourceTree = "<group>"; };
+		5CE93E721D0FF2F500A536AC /* UIStepper+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStepper+FlatUI.h"; sourceTree = "<group>"; };
+		5CE93E731D0FF2F500A536AC /* UIStepper+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStepper+FlatUI.m"; sourceTree = "<group>"; };
+		5CE93E741D0FF2F500A536AC /* UITabBar+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+FlatUI.h"; sourceTree = "<group>"; };
+		5CE93E751D0FF2F500A536AC /* UITabBar+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+FlatUI.m"; sourceTree = "<group>"; };
+		5CE93E761D0FF2F500A536AC /* UITableViewCell+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+FlatUI.h"; sourceTree = "<group>"; };
+		5CE93E771D0FF2F500A536AC /* UITableViewCell+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+FlatUI.m"; sourceTree = "<group>"; };
+		5CE93E781D0FF2F500A536AC /* UIToolbar+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIToolbar+FlatUI.h"; sourceTree = "<group>"; };
+		5CE93E791D0FF2F500A536AC /* UIToolbar+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+FlatUI.m"; sourceTree = "<group>"; };
+		5CE93E7B1D0FF2F500A536AC /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		5CE93E7C1D0FF2F500A536AC /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		5CE93E7D1D0FF2F500A536AC /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		5CE93E7E1D0FF2F500A536AC /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		5CE93E7F1D0FF2F500A536AC /* Lato-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Hairline.ttf"; sourceTree = "<group>"; };
+		5CE93E801D0FF2F500A536AC /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
+		5CE93E811D0FF2F500A536AC /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		5CE93E821D0FF2F500A536AC /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		5CE93E831D0FF2F500A536AC /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		5CE93E841D0FF2F500A536AC /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		5CE93EA31D11330100A536AC /* TCKTVSingerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCKTVSingerViewController.swift; sourceTree = "<group>"; };
+		5CFEFCE61D78083400520B3B /* Apps.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Apps.storyboard; sourceTree = "<group>"; };
+		5CFEFCE81D780D3000520B3B /* Apps.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Apps.xcassets; sourceTree = "<group>"; };
+		5CFEFCEA1D7816BB00520B3B /* TCAppsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCAppsViewController.swift; sourceTree = "<group>"; };
+		61DBCFBB028BAA37DF0DC02F /* Pods_tc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD29EA47B99A22DF2E08408 /* Pods-tc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tc/Pods-tc.debug.xcconfig"; sourceTree = "<group>"; };
+		F7636E7970B7EEC64FB51B3C /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CE93E1E1D0E838400A536AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCA01DF5A1620B5A052D37C /* Pods_tc.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C0A5FA81D5EE720000E6F3A /* CloudSearch */ = {
+			isa = PBXGroup;
+			children = (
+				5C0A5FA91D5EE74A000E6F3A /* TCKTVCloudSearchViewController.swift */,
+			);
+			name = CloudSearch;
+			sourceTree = "<group>";
+		};
+		5C3BC8711D6BDA6600801FA6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5C88DC2F1D76B4D000E4803A /* UIHelper */,
+				5C3BC8721D6BDA6C00801FA6 /* AFNetworking+Cancel */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		5C3BC8721D6BDA6C00801FA6 /* AFNetworking+Cancel */ = {
+			isa = PBXGroup;
+			children = (
+				5C3BC8731D6BDA9700801FA6 /* AFNetworking+Cancel.swift */,
+			);
+			name = "AFNetworking+Cancel";
+			sourceTree = "<group>";
+		};
+		5C50E0AB1D1391650002AEF1 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				5C50E0AC1D13917F0002AEF1 /* TCVerticalButton.swift */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
+		5C58160E1D22468B00A0F513 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5C58160F1D22469500A0F513 /* View */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		5C58160F1D22469500A0F513 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C5816131D2251B600A0F513 /* MainBoardButton */,
+				5C5816101D22469E00A0F513 /* MainButton */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5C5816101D22469E00A0F513 /* MainButton */ = {
+			isa = PBXGroup;
+			children = (
+				5C5816111D2246BF00A0F513 /* TCMainButton.swift */,
+			);
+			name = MainButton;
+			sourceTree = "<group>";
+		};
+		5C5816131D2251B600A0F513 /* MainBoardButton */ = {
+			isa = PBXGroup;
+			children = (
+				5C5816141D2251C800A0F513 /* TCKTVMainButton.swift */,
+			);
+			name = MainBoardButton;
+			sourceTree = "<group>";
+		};
+		5C88DC281D76A5EC00E4803A /* AC */ = {
+			isa = PBXGroup;
+			children = (
+				5C88DC291D76A60000E4803A /* AC.storyboard */,
+				5C88DC2D1D76AFF200E4803A /* TCACViewController.swift */,
+				5C88DC331D76B68800E4803A /* AC.xcassets */,
+			);
+			name = AC;
+			sourceTree = "<group>";
+		};
+		5C88DC2F1D76B4D000E4803A /* UIHelper */ = {
+			isa = PBXGroup;
+			children = (
+				5C88DC301D76B4D000E4803A /* UIHelper.h */,
+				5C88DC311D76B4D000E4803A /* UIHelper.m */,
+			);
+			path = UIHelper;
+			sourceTree = "<group>";
+		};
+		5C88DC351D76C53C00E4803A /* SoundControl */ = {
+			isa = PBXGroup;
+			children = (
+				5C88DC361D76C54C00E4803A /* SoundControl.storyboard */,
+				5C88DC381D76C87100E4803A /* SoundControl.xcassets */,
+				5C88DC3A1D76D3EB00E4803A /* TCSoundControlViewController.swift */,
+			);
+			name = SoundControl;
+			sourceTree = "<group>";
+		};
+		5CA77E2D1D7D3A670013F0C3 /* Cinema */ = {
+			isa = PBXGroup;
+			children = (
+				5CA77E2E1D7D3AA60013F0C3 /* Cinema.storyboard */,
+				5CA77E3A1D7D66A30013F0C3 /* TCCinemaSearchViewController.swift */,
+				5CA77E331D7D41490013F0C3 /* TCCinemaViewController.swift */,
+				5CA77E381D7D54850013F0C3 /* Cinema.xcassets */,
+				5C47421B1D7E978A0010CFFA /* TCCinemaFiltViewManager.swift */,
+			);
+			name = Cinema;
+			sourceTree = "<group>";
+		};
+		5CAA021B1D17CDF900FE6DBD /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				5CAA02171D17CD9800FE6DBD /* TCContext.swift */,
+				5CAA025B1D1A672600FE6DBD /* Socket */,
+				5C4F21221D61C7C3009CD476 /* UISearchBarAppearance.h */,
+				5C4F21231D61C7C3009CD476 /* UISearchBarAppearance.m */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		5CAA021C1D17CE1600FE6DBD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5CAA021D1D17CE1D00FE6DBD /* MCJSONClient */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		5CAA021D1D17CE1D00FE6DBD /* MCJSONClient */ = {
+			isa = PBXGroup;
+			children = (
+				5CAA021E1D17CE1D00FE6DBD /* MCJSONClient.swift */,
+			);
+			path = MCJSONClient;
+			sourceTree = "<group>";
+		};
+		5CAA02201D17D03100FE6DBD /* CocoaLumberjackSwift */ = {
+			isa = PBXGroup;
+			children = (
+				5CAA02211D17D03100FE6DBD /* CocoaLumberjackSwift.swift */,
+			);
+			path = CocoaLumberjackSwift;
+			sourceTree = "<group>";
+		};
+		5CAA02251D17D14B00FE6DBD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5CAA02261D17D16F00FE6DBD /* TCKTVSongCell.swift */,
+				5CC38DBC1D6300CA0072CAE3 /* TCKTVContainerCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5CAA022C1D19137900FE6DBD /* SongName */ = {
+			isa = PBXGroup;
+			children = (
+				5CAA02421D1922C600FE6DBD /* View */,
+				5CAA022D1D19138500FE6DBD /* Model */,
+				5CE93E4E1D0FF02200A536AC /* TCKTVSongNameViewController.swift */,
+			);
+			name = SongName;
+			sourceTree = "<group>";
+		};
+		5CAA022D1D19138500FE6DBD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5CAA024B1D1929A200FE6DBD /* TCKTVSongNameClient.swift */,
+				5CAA02301D19150500FE6DBD /* TCKTVSong.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5CAA02341D19198600FE6DBD /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				5CAA02351D19198600FE6DBD /* MBProgressHUD.h */,
+				5CAA02361D19198600FE6DBD /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		5CAA02381D19199A00FE6DBD /* UIView+MBProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				5CAA02391D19199A00FE6DBD /* UIView+MBProgressView.h */,
+				5CAA023A1D19199A00FE6DBD /* UIView+MBProgressView.m */,
+			);
+			path = "UIView+MBProgressView";
+			sourceTree = "<group>";
+		};
+		5CAA023C1D191D1100FE6DBD /* Singer */ = {
+			isa = PBXGroup;
+			children = (
+				5CAA023D1D191D1E00FE6DBD /* Model */,
+				5CE93EA31D11330100A536AC /* TCKTVSingerViewController.swift */,
+			);
+			name = Singer;
+			sourceTree = "<group>";
+		};
+		5CAA023D1D191D1E00FE6DBD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5CAA023E1D191D2F00FE6DBD /* TCKTVSinger.swift */,
+				5CAA02401D191DCA00FE6DBD /* TCKTVSingerClient.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5CAA02421D1922C600FE6DBD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5CAA02431D1922DB00FE6DBD /* TCKTVSingerCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5CAA02451D19262000FE6DBD /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				5C50E0A91D1148BC0002AEF1 /* TCKTVLanguageViewController.swift */,
+			);
+			name = Language;
+			sourceTree = "<group>";
+		};
+		5CAA02461D19282800FE6DBD /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				5CAA02481D1928EB00FE6DBD /* Model */,
+				5C50E0A71D11467C0002AEF1 /* TCKTVCategoryViewController.swift */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		5CAA02481D1928EB00FE6DBD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5CAA024D1D19335E00FE6DBD /* Cloud */ = {
+			isa = PBXGroup;
+			children = (
+				5CAA024E1D19336400FE6DBD /* Model */,
+			);
+			name = Cloud;
+			sourceTree = "<group>";
+		};
+		5CAA024E1D19336400FE6DBD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5CAA024F1D19337300FE6DBD /* TCKTVCloud.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5CAA02511D19341200FE6DBD /* Download */ = {
+			isa = PBXGroup;
+			children = (
+				5CAA02521D19341900FE6DBD /* Model */,
+			);
+			name = Download;
+			sourceTree = "<group>";
+		};
+		5CAA02521D19341900FE6DBD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5CAA02531D19342600FE6DBD /* TCKTVDownload.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5CAA02551D19346800FE6DBD /* Point */ = {
+			isa = PBXGroup;
+			children = (
+				5CAA02561D19347100FE6DBD /* Model */,
+			);
+			name = Point;
+			sourceTree = "<group>";
+		};
+		5CAA02561D19347100FE6DBD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5CAA02571D19348200FE6DBD /* TCKTVPoint.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5CAA025B1D1A672600FE6DBD /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				5CAA025C1D1A672D00FE6DBD /* Model */,
+				5CAA02591D1A5E0600FE6DBD /* TCSocketManager.swift */,
+			);
+			name = Socket;
+			sourceTree = "<group>";
+		};
+		5CAA025C1D1A672D00FE6DBD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5CAA025D1D1A673F00FE6DBD /* TCSocketPayload.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5CAA025F1D1A6FCB00FE6DBD /* PayloadHandler */ = {
+			isa = PBXGroup;
+			children = (
+				5CAA02601D1A700200FE6DBD /* TCKTVPayloadHandler.swift */,
+			);
+			name = PayloadHandler;
+			sourceTree = "<group>";
+		};
+		5CE93E181D0E838400A536AC = {
+			isa = PBXGroup;
+			children = (
+				5CE93E371D0E83EA00A536AC /* tc */,
+				5CE93E221D0E838400A536AC /* Products */,
+				BA0266BBDD9824C5C6079C6A /* Frameworks */,
+				F9AA9AD25D12FB9D1C0D05BD /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		5CE93E221D0E838400A536AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CE93E211D0E838400A536AC /* tc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CE93E371D0E83EA00A536AC /* tc */ = {
+			isa = PBXGroup;
+			children = (
+				5CA77E2D1D7D3A670013F0C3 /* Cinema */,
+				5CFEFCE51D78082800520B3B /* Apps */,
+				5C88DC351D76C53C00E4803A /* SoundControl */,
+				5C88DC281D76A5EC00E4803A /* AC */,
+				5C3BC8711D6BDA6600801FA6 /* Utils */,
+				5C58160E1D22468B00A0F513 /* Main */,
+				5CAA021B1D17CDF900FE6DBD /* Global */,
+				5CE93E511D0FF2F500A536AC /* Lib */,
+				5CE93E491D0E9C8B00A536AC /* KTV */,
+				5CE93E381D0E83EA00A536AC /* AppDelegate.swift */,
+				5CE93E391D0E83EA00A536AC /* Assets.xcassets */,
+				5CE93E3A1D0E83EA00A536AC /* LaunchScreen.storyboard */,
+				5CE93E3C1D0E83EA00A536AC /* Main.storyboard */,
+				5CE93E3E1D0E83EA00A536AC /* Info.plist */,
+				5CE93E3F1D0E83EA00A536AC /* tc-bridging-header.h */,
+				5CE93E401D0E83EA00A536AC /* TCMainViewController.swift */,
+				5CE93E471D0E8CBF00A536AC /* Images.xcassets */,
+			);
+			path = tc;
+			sourceTree = "<group>";
+		};
+		5CE93E491D0E9C8B00A536AC /* KTV */ = {
+			isa = PBXGroup;
+			children = (
+				5C0A5FA81D5EE720000E6F3A /* CloudSearch */,
+				5CAA025F1D1A6FCB00FE6DBD /* PayloadHandler */,
+				5CAA02551D19346800FE6DBD /* Point */,
+				5CAA02511D19341200FE6DBD /* Download */,
+				5CAA024D1D19335E00FE6DBD /* Cloud */,
+				5CAA02251D17D14B00FE6DBD /* View */,
+				5CAA021C1D17CE1600FE6DBD /* Utils */,
+				5C50E0AB1D1391650002AEF1 /* Custom */,
+				5CE93E4A1D0E9CA400A536AC /* TCKTVMainViewController.swift */,
+				5CE93E4C1D0FDEA900A536AC /* TCKTVMainBoardViewController.swift */,
+				5CAA022C1D19137900FE6DBD /* SongName */,
+				5CAA02461D19282800FE6DBD /* Category */,
+				5CAA023C1D191D1100FE6DBD /* Singer */,
+				5CAA02451D19262000FE6DBD /* Language */,
+				5CAA02231D17D09800FE6DBD /* TCKTVSongsViewController.swift */,
+			);
+			name = KTV;
+			sourceTree = "<group>";
+		};
+		5CE93E511D0FF2F500A536AC /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				5CAA02381D19199A00FE6DBD /* UIView+MBProgressView */,
+				5CAA02341D19198600FE6DBD /* MBProgressHUD */,
+				5CAA02201D17D03100FE6DBD /* CocoaLumberjackSwift */,
+				5CE93E521D0FF2F500A536AC /* FlatUIKit */,
+				5C88DC3C1D76EB5C00E4803A /* TIFFitToHeightLabel.swift */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		5CE93E521D0FF2F500A536AC /* FlatUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				5CE93E531D0FF2F500A536AC /* Classes */,
+				5CE93E7A1D0FF2F500A536AC /* Resources */,
+			);
+			path = FlatUIKit;
+			sourceTree = "<group>";
+		};
+		5CE93E531D0FF2F500A536AC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5CE93E541D0FF2F500A536AC /* ios */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5CE93E541D0FF2F500A536AC /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				5CE93E551D0FF2F500A536AC /* FlatUIKit.h */,
+				5CE93E561D0FF2F500A536AC /* FUIAlertView.h */,
+				5CE93E571D0FF2F500A536AC /* FUIAlertView.m */,
+				5CE93E581D0FF2F500A536AC /* FUIButton.h */,
+				5CE93E591D0FF2F500A536AC /* FUIButton.m */,
+				5CE93E5A1D0FF2F500A536AC /* FUICellBackgroundView.h */,
+				5CE93E5B1D0FF2F500A536AC /* FUICellBackgroundView.m */,
+				5CE93E5C1D0FF2F500A536AC /* FUIPopoverBackgroundView.h */,
+				5CE93E5D1D0FF2F500A536AC /* FUIPopoverBackgroundView.m */,
+				5CE93E5E1D0FF2F500A536AC /* FUISegmentedControl.h */,
+				5CE93E5F1D0FF2F500A536AC /* FUISegmentedControl.m */,
+				5CE93E601D0FF2F500A536AC /* FUISwitch.h */,
+				5CE93E611D0FF2F500A536AC /* FUISwitch.m */,
+				5CE93E621D0FF2F500A536AC /* UIBarButtonItem+FlatUI.h */,
+				5CE93E631D0FF2F500A536AC /* UIBarButtonItem+FlatUI.m */,
+				5CE93E641D0FF2F500A536AC /* UIColor+FlatUI.h */,
+				5CE93E651D0FF2F500A536AC /* UIColor+FlatUI.m */,
+				5CE93E661D0FF2F500A536AC /* UIFont+FlatUI.h */,
+				5CE93E671D0FF2F500A536AC /* UIFont+FlatUI.m */,
+				5CE93E681D0FF2F500A536AC /* UIImage+FlatUI.h */,
+				5CE93E691D0FF2F500A536AC /* UIImage+FlatUI.m */,
+				5CE93E6A1D0FF2F500A536AC /* UINavigationBar+FlatUI.h */,
+				5CE93E6B1D0FF2F500A536AC /* UINavigationBar+FlatUI.m */,
+				5CE93E6C1D0FF2F500A536AC /* UIPopoverController+FlatUI.h */,
+				5CE93E6D1D0FF2F500A536AC /* UIPopoverController+FlatUI.m */,
+				5CE93E6E1D0FF2F500A536AC /* UIProgressView+FlatUI.h */,
+				5CE93E6F1D0FF2F500A536AC /* UIProgressView+FlatUI.m */,
+				5CE93E701D0FF2F500A536AC /* UISlider+FlatUI.h */,
+				5CE93E711D0FF2F500A536AC /* UISlider+FlatUI.m */,
+				5CE93E721D0FF2F500A536AC /* UIStepper+FlatUI.h */,
+				5CE93E731D0FF2F500A536AC /* UIStepper+FlatUI.m */,
+				5CE93E741D0FF2F500A536AC /* UITabBar+FlatUI.h */,
+				5CE93E751D0FF2F500A536AC /* UITabBar+FlatUI.m */,
+				5CE93E761D0FF2F500A536AC /* UITableViewCell+FlatUI.h */,
+				5CE93E771D0FF2F500A536AC /* UITableViewCell+FlatUI.m */,
+				5CE93E781D0FF2F500A536AC /* UIToolbar+FlatUI.h */,
+				5CE93E791D0FF2F500A536AC /* UIToolbar+FlatUI.m */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		5CE93E7A1D0FF2F500A536AC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5CE93E7B1D0FF2F500A536AC /* Lato-Black.ttf */,
+				5CE93E7C1D0FF2F500A536AC /* Lato-BlackItalic.ttf */,
+				5CE93E7D1D0FF2F500A536AC /* Lato-Bold.ttf */,
+				5CE93E7E1D0FF2F500A536AC /* Lato-BoldItalic.ttf */,
+				5CE93E7F1D0FF2F500A536AC /* Lato-Hairline.ttf */,
+				5CE93E801D0FF2F500A536AC /* Lato-HairlineItalic.ttf */,
+				5CE93E811D0FF2F500A536AC /* Lato-Italic.ttf */,
+				5CE93E821D0FF2F500A536AC /* Lato-Light.ttf */,
+				5CE93E831D0FF2F500A536AC /* Lato-LightItalic.ttf */,
+				5CE93E841D0FF2F500A536AC /* Lato-Regular.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5CFEFCE51D78082800520B3B /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				5CFEFCE61D78083400520B3B /* Apps.storyboard */,
+				5CFEFCE81D780D3000520B3B /* Apps.xcassets */,
+				5CFEFCEA1D7816BB00520B3B /* TCAppsViewController.swift */,
+			);
+			name = Apps;
+			sourceTree = "<group>";
+		};
+		BA0266BBDD9824C5C6079C6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7636E7970B7EEC64FB51B3C /* Pods.framework */,
+				61DBCFBB028BAA37DF0DC02F /* Pods_tc.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9AA9AD25D12FB9D1C0D05BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBD29EA47B99A22DF2E08408 /* Pods-tc.debug.xcconfig */,
+				54EF98188CE16DE3A76D1AD8 /* Pods-tc.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CE93E201D0E838400A536AC /* tc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CE93E331D0E838400A536AC /* Build configuration list for PBXNativeTarget "tc" */;
+			buildPhases = (
+				041E6A5DCFA1A9C0C4C13C75 /* [CP] Check Pods Manifest.lock */,
+				5CE93E1D1D0E838400A536AC /* Sources */,
+				5CE93E1E1D0E838400A536AC /* Frameworks */,
+				5CE93E1F1D0E838400A536AC /* Resources */,
+				12A0283807325F0DED151EBC /* [CP] Embed Pods Frameworks */,
+				40E56ACD3EA0E54DC2880744 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tc;
+			productName = abc;
+			productReference = 5CE93E211D0E838400A536AC /* tc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CE93E191D0E838400A536AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Sasori;
+				TargetAttributes = {
+					5CE93E201D0E838400A536AC = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = ZH9V59FT7J;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5CE93E1C1D0E838400A536AC /* Build configuration list for PBXProject "tc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CE93E181D0E838400A536AC;
+			productRefGroup = 5CE93E221D0E838400A536AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CE93E201D0E838400A536AC /* tc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CE93E1F1D0E838400A536AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE93E991D0FF2F500A536AC /* Lato-Bold.ttf in Resources */,
+				5C88DC2A1D76A60000E4803A /* AC.storyboard in Resources */,
+				5CE93E481D0E8CBF00A536AC /* Images.xcassets in Resources */,
+				5CE93E9C1D0FF2F500A536AC /* Lato-HairlineItalic.ttf in Resources */,
+				5CE93E9E1D0FF2F500A536AC /* Lato-Light.ttf in Resources */,
+				5CE93E441D0E83EA00A536AC /* Main.storyboard in Resources */,
+				5CE93E9D1D0FF2F500A536AC /* Lato-Italic.ttf in Resources */,
+				5CE93E9A1D0FF2F500A536AC /* Lato-BoldItalic.ttf in Resources */,
+				5CE93E981D0FF2F500A536AC /* Lato-BlackItalic.ttf in Resources */,
+				5CFEFCE91D780D3000520B3B /* Apps.xcassets in Resources */,
+				5CE93E9B1D0FF2F500A536AC /* Lato-Hairline.ttf in Resources */,
+				5CE93E421D0E83EA00A536AC /* Assets.xcassets in Resources */,
+				5C88DC391D76C87100E4803A /* SoundControl.xcassets in Resources */,
+				5C88DC341D76B68800E4803A /* AC.xcassets in Resources */,
+				5CFEFCE71D78083400520B3B /* Apps.storyboard in Resources */,
+				5CE93E971D0FF2F500A536AC /* Lato-Black.ttf in Resources */,
+				5CA77E391D7D54850013F0C3 /* Cinema.xcassets in Resources */,
+				5C88DC371D76C54C00E4803A /* SoundControl.storyboard in Resources */,
+				5CE93EA01D0FF2F500A536AC /* Lato-Regular.ttf in Resources */,
+				5CE93E431D0E83EA00A536AC /* LaunchScreen.storyboard in Resources */,
+				5CA77E2F1D7D3AA60013F0C3 /* Cinema.storyboard in Resources */,
+				5CE93E9F1D0FF2F500A536AC /* Lato-LightItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		041E6A5DCFA1A9C0C4C13C75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		12A0283807325F0DED151EBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tc/Pods-tc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40E56ACD3EA0E54DC2880744 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tc/Pods-tc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CE93E1D1D0E838400A536AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE93E861D0FF2F500A536AC /* FUIButton.m in Sources */,
+				5CAA02181D17CD9800FE6DBD /* TCContext.swift in Sources */,
+				5CE93E901D0FF2F500A536AC /* UIPopoverController+FlatUI.m in Sources */,
+				5CE93E941D0FF2F500A536AC /* UITabBar+FlatUI.m in Sources */,
+				5CE93E911D0FF2F500A536AC /* UIProgressView+FlatUI.m in Sources */,
+				5CE93E8D1D0FF2F500A536AC /* UIFont+FlatUI.m in Sources */,
+				5CAA02271D17D16F00FE6DBD /* TCKTVSongCell.swift in Sources */,
+				5CE93E871D0FF2F500A536AC /* FUICellBackgroundView.m in Sources */,
+				5CE93E461D0E83EA00A536AC /* TCMainViewController.swift in Sources */,
+				5CFEFCEB1D7816BB00520B3B /* TCAppsViewController.swift in Sources */,
+				5CE93E8C1D0FF2F500A536AC /* UIColor+FlatUI.m in Sources */,
+				5CE93EA41D11330100A536AC /* TCKTVSingerViewController.swift in Sources */,
+				5CE93E881D0FF2F500A536AC /* FUIPopoverBackgroundView.m in Sources */,
+				5C50E0AA1D1148BC0002AEF1 /* TCKTVLanguageViewController.swift in Sources */,
+				5C0A5FAA1D5EE74A000E6F3A /* TCKTVCloudSearchViewController.swift in Sources */,
+				5C50E0AD1D13917F0002AEF1 /* TCVerticalButton.swift in Sources */,
+				5CC38DBD1D6300CA0072CAE3 /* TCKTVContainerCell.swift in Sources */,
+				5CE93E961D0FF2F500A536AC /* UIToolbar+FlatUI.m in Sources */,
+				5C88DC321D76B4D000E4803A /* UIHelper.m in Sources */,
+				5CAA02241D17D09800FE6DBD /* TCKTVSongsViewController.swift in Sources */,
+				5CAA023F1D191D2F00FE6DBD /* TCKTVSinger.swift in Sources */,
+				5C47421C1D7E978A0010CFFA /* TCCinemaFiltViewManager.swift in Sources */,
+				5CAA023B1D19199A00FE6DBD /* UIView+MBProgressView.m in Sources */,
+				5CAA021F1D17CE1D00FE6DBD /* MCJSONClient.swift in Sources */,
+				5CE93E8F1D0FF2F500A536AC /* UINavigationBar+FlatUI.m in Sources */,
+				5CE93E8A1D0FF2F500A536AC /* FUISwitch.m in Sources */,
+				5CAA02441D1922DB00FE6DBD /* TCKTVSingerCell.swift in Sources */,
+				5CAA02611D1A700200FE6DBD /* TCKTVPayloadHandler.swift in Sources */,
+				5CAA02501D19337300FE6DBD /* TCKTVCloud.swift in Sources */,
+				5CAA025A1D1A5E0600FE6DBD /* TCSocketManager.swift in Sources */,
+				5CE93E921D0FF2F500A536AC /* UISlider+FlatUI.m in Sources */,
+				5CE93E951D0FF2F500A536AC /* UITableViewCell+FlatUI.m in Sources */,
+				5CAA02371D19198600FE6DBD /* MBProgressHUD.m in Sources */,
+				5CA77E341D7D41490013F0C3 /* TCCinemaViewController.swift in Sources */,
+				5CE93E8B1D0FF2F500A536AC /* UIBarButtonItem+FlatUI.m in Sources */,
+				5C88DC3B1D76D3EB00E4803A /* TCSoundControlViewController.swift in Sources */,
+				5C5816151D2251C800A0F513 /* TCKTVMainButton.swift in Sources */,
+				5CE93E4D1D0FDEA900A536AC /* TCKTVMainBoardViewController.swift in Sources */,
+				5C4F21241D61C7C3009CD476 /* UISearchBarAppearance.m in Sources */,
+				5CAA02221D17D03100FE6DBD /* CocoaLumberjackSwift.swift in Sources */,
+				5C88DC2E1D76AFF200E4803A /* TCACViewController.swift in Sources */,
+				5C3BC8741D6BDA9700801FA6 /* AFNetworking+Cancel.swift in Sources */,
+				5CAA025E1D1A673F00FE6DBD /* TCSocketPayload.swift in Sources */,
+				5CAA02411D191DCA00FE6DBD /* TCKTVSingerClient.swift in Sources */,
+				5CA77E3B1D7D66A30013F0C3 /* TCCinemaSearchViewController.swift in Sources */,
+				5C5816121D2246BF00A0F513 /* TCMainButton.swift in Sources */,
+				5CE93E891D0FF2F500A536AC /* FUISegmentedControl.m in Sources */,
+				5CAA024C1D1929A300FE6DBD /* TCKTVSongNameClient.swift in Sources */,
+				5CE93E931D0FF2F500A536AC /* UIStepper+FlatUI.m in Sources */,
+				5C88DC3D1D76EB5C00E4803A /* TIFFitToHeightLabel.swift in Sources */,
+				5CE93E851D0FF2F500A536AC /* FUIAlertView.m in Sources */,
+				5CE93E4F1D0FF02200A536AC /* TCKTVSongNameViewController.swift in Sources */,
+				5CE93E8E1D0FF2F500A536AC /* UIImage+FlatUI.m in Sources */,
+				5CAA02541D19342600FE6DBD /* TCKTVDownload.swift in Sources */,
+				5CAA02581D19348200FE6DBD /* TCKTVPoint.swift in Sources */,
+				5CE93E4B1D0E9CA400A536AC /* TCKTVMainViewController.swift in Sources */,
+				5CAA02311D19150500FE6DBD /* TCKTVSong.swift in Sources */,
+				5C50E0A81D11467C0002AEF1 /* TCKTVCategoryViewController.swift in Sources */,
+				5CE93E411D0E83EA00A536AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5CE93E3A1D0E83EA00A536AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CE93E3B1D0E83EA00A536AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5CE93E3C1D0E83EA00A536AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CE93E3D1D0E83EA00A536AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CE93E311D0E838400A536AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CE93E321D0E838400A536AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CE93E341D0E838400A536AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBD29EA47B99A22DF2E08408 /* Pods-tc.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaungchImages;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dechao Teng (655SU6QQ4X)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZH9V59FT7J;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				HEADER_SEARCH_PATHS = "${PODS_ROOT}/**";
+				INFOPLIST_FILE = "$(SRCROOT)/tc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tianchi.k8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "tc/tc-bridging-header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CE93E351D0E838400A536AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54EF98188CE16DE3A76D1AD8 /* Pods-tc.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaungchImages;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dechao Teng (655SU6QQ4X)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZH9V59FT7J;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				HEADER_SEARCH_PATHS = "${PODS_ROOT}/**";
+				INFOPLIST_FILE = "$(SRCROOT)/tc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tianchi.k8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "tc/tc-bridging-header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CE93E1C1D0E838400A536AC /* Build configuration list for PBXProject "tc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE93E311D0E838400A536AC /* Debug */,
+				5CE93E321D0E838400A536AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CE93E331D0E838400A536AC /* Build configuration list for PBXNativeTarget "tc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE93E341D0E838400A536AC /* Debug */,
+				5CE93E351D0E838400A536AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CE93E191D0E838400A536AC /* Project object */;
+}
